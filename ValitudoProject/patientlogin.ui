@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Frame" id="frame1">
+    <property name="height">700</property>
+    <property name="width">700</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Label" id="IdRequestLabel">
+        <property name="text" translatable="yes">Please enter your patient id</property>
+        <layout manager="pack">
+          <property name="pady">30</property>
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="entry1">
+        <layout manager="pack">
+          <property name="pady">20</property>
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="LoginButton">
+        <property name="text" translatable="yes">Log In</property>
+        <layout manager="pack">
+          <property name="padx">30</property>
+          <property name="pady">30</property>
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="errorLabel">
+        <layout manager="pack">
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="cancelButton">
+        <property name="text" translatable="yes">Cancel</property>
+        <layout manager="pack">
+          <property name="pady">20</property>
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

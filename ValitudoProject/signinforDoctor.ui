@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="ttk.Frame" id="frame1">
+    <property name="height">800</property>
+    <property name="width">800</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Label" id="label1">
+        <property name="text" translatable="yes">Please enter your id
+</property>
+        <layout manager="pack">
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="entry1">
+        <property name="cursor">arrow</property>
+        <property name="text" translatable="yes">
+</property>
+        <layout manager="pack">
+          <property name="pady">20</property>
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="loginButton">
+        <property name="command" type="command" cbtype="simple">log_in</property>
+        <property name="height">2</property>
+        <property name="text" translatable="yes">Log In</property>
+        <property name="width">10</property>
+        <layout manager="pack">
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button1">
+        <property name="text" translatable="yes">button1</property>
+        <layout manager="pack">
+          <property name="expand">false</property>
+          <property name="propagate">True</property>
+          <property name="side">left</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

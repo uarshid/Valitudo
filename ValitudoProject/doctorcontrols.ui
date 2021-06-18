@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Frame" id="frame3">
+    <property name="height">700</property>
+    <property name="width">700</property>
+    <layout manager="pack">
+      <property name="propagate">True</property>
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Frame" id="frame4">
+        <property name="background">sky blue</property>
+        <property name="height">250</property>
+        <property name="width">200</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relheight">0.72</property>
+          <property name="relwidth">0.82</property>
+          <property name="relx">0.1</property>
+          <property name="rely">0.18</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+        <child>
+          <object class="tk.Button" id="SearchForPatient">
+            <property name="text" translatable="yes">button6</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relheight">0.15</property>
+              <property name="relwidth">0.26</property>
+              <property name="relx">0.17</property>
+              <property name="rely">0.13</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="MakeAppointment">
+            <property name="text" translatable="yes">button7</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relheight">0.15</property>
+              <property name="relwidth">0.26</property>
+              <property name="relx">0.66</property>
+              <property name="rely">0.13</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="ViewPatients">
+            <property name="text" translatable="yes">button8</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relheight">0.15</property>
+              <property name="relwidth">0.26</property>
+              <property name="relx">0.17</property>
+              <property name="rely">0.4</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="PatientManagment">
+            <property name="text" translatable="yes">button9</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relheight">0.15</property>
+              <property name="relwidth">0.26</property>
+              <property name="relx">0.66</property>
+              <property name="rely">0.4</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="MedicalTest">
+            <property name="text" translatable="yes">button10</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relheight">0.15</property>
+              <property name="relwidth">0.26</property>
+              <property name="relx">0.17</property>
+              <property name="rely">0.68</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="PrescribeMedicine">
+            <property name="text" translatable="yes">button11</property>
+            <layout manager="place">
+              <property name="anchor">nw</property>
+              <property name="relheight">0.15</property>
+              <property name="relwidth">0.26</property>
+              <property name="relx">0.66</property>
+              <property name="rely">0.68</property>
+              <property name="x">0</property>
+              <property name="y">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="LogOut">
+        <property name="text" translatable="yes">button12</property>
+        <layout manager="place">
+          <property name="anchor">nw</property>
+          <property name="relheight">0.09</property>
+          <property name="relwidth">0.21</property>
+          <property name="relx">0.46</property>
+          <property name="rely">0.91</property>
+          <property name="x">0</property>
+          <property name="y">0</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
